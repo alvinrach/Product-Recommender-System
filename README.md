@@ -54,15 +54,19 @@ Sedangkan yang akan digunakan untuk *collaborative filtering* adalah item_id, us
 Serba-serbi variabel tsb divisualisasikan dalam grafik-grafik berikut ini.
 
 - Kategori barang
+
 ![category](https://github.com/alvinrach/Product-Recommender-System/blob/main/category.png?raw=true)
 
 - Pengkhususan gender suatu produk
+
 ![item_gender_model_attr](https://github.com/alvinrach/Product-Recommender-System/blob/main/item_gender_model_attr.png?raw=true)
 
 - Distribusi rating
+
 ![rating](https://github.com/alvinrach/Product-Recommender-System/blob/main/rating.png?raw=true)
 
 - Tahun rilis produk
+
 ![release_year](https://github.com/alvinrach/Product-Recommender-System/blob/main/release_year.png?raw=true)
 
 Selain itu, untuk memahami data, dilakukan pula:
