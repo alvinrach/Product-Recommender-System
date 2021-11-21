@@ -192,7 +192,9 @@ The advantage of the precision@k metric is that it is practical, there is no nee
 ### Collaborative Filtering
 To evaluate, the metric used is Root Mean Squared Error.
 - Root Mean Squared Error (RMSE) is one of the metrics used in the case of regression, in addition to Mean Absolute Error (MAE) and Mean Absolute Percentage Error (MAPE). The formula for this metric is formulated as follows:
+
 ![RMSE Formula](https://miro.medium.com/max/412/1*RSYTYpqyGDYWPmI0rD8zqA.png)
+
 Where n is the number of samples, y is the actual value, and is the predicted value.
 - The advantage of RMSE over other regression metrics is that it is suitable if you want to take into account the error value of a larger outlier, if that is so desired. The disadvantages of RMSE compared to other regression metrics are that it is less easy to interpret (compared to MAE) and makes the metric too sensitive in calculating the error value of outliers.
 - Deployment is done by typing tf.keras.metrics.RootMeanSquaredError() in the Tensorflow model metrics when compiling:
@@ -406,7 +408,9 @@ Kelebihan metrik precision@k adalah praktis, tidak perlu menghitung secara kesel
 ### Collaborative Filtering
 Untuk mengevaluasi, metrik yang digunakan ialah _Root Mean Squared Error_.
 - _Root Mean Squared Error_ (RMSE) adalah salah satu metrik yang digunakan pada kasus regresi, disamping _Mean Absolute Error_ (MAE) dan _Mean Absolute Percentage Error_ (MAPE). Formula dari metrik ini dirumuskan sebagai berikut:
+
 ![RMSE Formula](https://miro.medium.com/max/412/1*RSYTYpqyGDYWPmI0rD8zqA.png)
+
 Dimana n merupakan jumlah sampel, y adalah nilai aktual, dan ŷ merupakan nilai prediksi.
 - Kelebihan RMSE dibanding metrik regresi lainnya ialah cocok jika ingin memperhitungkan nilai eror dari pencilan lebih besar, jika memang dikehendaki demikian. Kekurangan RMSE dibanding metrik regresi lainnya yaitu lebih tidak mudah untuk diinterpretasikan (dibanding MAE) dan membuat metrik terlalu sensitif dalam memperhitungkan nilai eror dari pencilan.
 - Penerapan dilakukan dengan cara mengetik tf.keras.metrics.RootMeanSquaredError() pada metrik model Tensorflow saat mengompilasi:
