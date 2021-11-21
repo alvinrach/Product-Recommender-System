@@ -207,7 +207,6 @@ In this project, RMSE for training was achieved as low as 0.3344 and RMSE valida
 
 ![plot_rmse_recommender](https://github.com/alvinrach/Product-Recommender-System/blob/main/plot_rmse_recommender.png?raw=true)
 
-**---This is the end of the markdown---**
 
 
 ---
