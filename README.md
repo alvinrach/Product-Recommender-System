@@ -54,15 +54,19 @@ Meanwhile, what will be used for collaborative filtering are item_id, user_id an
 All these variables are visualized in the following graphs.
 
 - Item category
+
 ![category](https://github.com/alvinrach/Product-Recommender-System/blob/main/category.png?raw=true)
 
 - Gender specificity of a product
+
 ![item_gender_model_attr](https://github.com/alvinrach/Product-Recommender-System/blob/main/item_gender_model_attr.png?raw=true)
 
 - Rating distribution
+
 ![rating](https://github.com/alvinrach/Product-Recommender-System/blob/main/rating.png?raw=true)
 
 - Product release year
+
 ![release_year](https://github.com/alvinrach/Product-Recommender-System/blob/main/release_year.png?raw=true)
 
 In addition, in order to understand the data, it is also done:
